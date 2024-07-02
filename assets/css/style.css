@@ -72,6 +72,14 @@ section {
 .education li, .certifications li {
     margin-bottom: 20px;
 }
+.certifications a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.certifications a:hover {
+    color: #0056b3;
+}
 .profile-image {
     width: 150px;
     height: 150px;
@@ -79,6 +87,7 @@ section {
     object-fit: cover;
     margin-bottom: 20px;
 }
+
 .intro {
     text-align: center;
     margin-bottom: 40px;
