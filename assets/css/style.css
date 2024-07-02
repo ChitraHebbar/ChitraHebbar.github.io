@@ -52,7 +52,26 @@ a:hover {
 section {
     margin-bottom: 80px;
 }
+.project-link {
+    transition: color 0.3s ease;
+}
 
+.project-link:hover {
+    color: #007bff;
+}
+.education, .certifications {
+    margin-bottom: 80px;
+}
+
+.education ul, .certifications ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.education li, .certifications li {
+    margin-bottom: 20px;
+}
 .profile-image {
     width: 150px;
     height: 150px;
